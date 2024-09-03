@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <label for="tall1">Tall 1:</label>
+    <label for="tall1">Tall 1: </label>
     <input type="number" name="tall1" id="tall1">
     <br>
-    <label for="tall2">Tall 2:</label>
+    <label for="tall2">Tall 2: </label>
     <input type="number" name="tall2" id="tall2">
     <br>
-    <input type="button" value="+" id="pluss">
-    <div id="svar"></div>
-
-    
+    <input type="button" value="+" onclick="addisjon()">
+    <input type="button" value="-" onclick="subtrahering()">
+    <input type="button" value="x" onclick="multiplikasjon()">
+    <input type="button" value="/" onclick="divisjon()">
+    <br>
+    <div id="svarboks"></div>
 
 
     <script src="app.js"></script>
